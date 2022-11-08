@@ -1,0 +1,33 @@
+{
+  "name": "challange",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js",
+    "start-prod": "NODE_ENV=production node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amalrivel/backend-dicoding-challange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amalrivel/backend-dicoding-challange/issues"
+  },
+  "homepage": "https://github.com/amalrivel/backend-dicoding-challange#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
